@@ -6,7 +6,7 @@ TYPE = 'last'
 
 
 
-balance = api_calls.getBalance(api_calls.qkey, api_calls.qsecret, api_calls.clientID)
+balance = api_calls.getBalance(api_calls.qkey, api_calls.qsecret, api_calls.qclientID)
 BTC_Amount = balance['btc_available']
 BTG_Amount = balance['btg_available']
 ETH_Amount = balance['eth_available']
