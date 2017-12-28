@@ -27,12 +27,9 @@ hmac_key = CONSTANTS.hmac_key
 hmac_secret = CONSTANTS.hmac_secret
 
 ######## QUADRIGA KEY CONSTANTS. WRITE ACCESS GRANTED. DO NOT PUT SECRET KEYS HERE!! #######
-qkey_omar = CONSTANTS.qkey_omar
-qsecret_omar = CONSTANTS.qsecret_omar
-qomar_clientID = CONSTANTS.qomar_clientID
-qkey_vasko = CONSTANTS.qkey_vasko
-qsecret_vasko = CONSTANTS.qsecret_vasko
-qvasko_clientID = CONSTANTS.qvasko_clientID
+qkey = CONSTANTS.qkey
+qsecret = CONSTANTS.qsecret
+qclientID = CONSTANTS.clientID
 
 ###################### GUI SECURITY PIN. Prevents accidental orders ###############
 SECURITY_PIN = '1234'
