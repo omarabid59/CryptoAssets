@@ -24,7 +24,7 @@ You should see something like this returned back to you:
 ```
 
 # BONUS
-This script was originally used to automate the process of buying bitcoins from QuadrigaCX and selling them on Localbitcoins to generate a nice profit. If you are interested in trading see my other project [here](https://github.com/omarabid59/Bitcoin_LBTC_Trading)
+This script was originally used to automate the process of buying bitcoins from QuadrigaCX and selling them on Localbitcoins to generate a nice profit. If you are interested in trading see my other project [here](https://github.com/omarabid59/Bitcoin_LBTC_Trading).
 
 
 # COMMENTS
