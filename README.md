@@ -28,4 +28,4 @@ This script was originally used to automate the process of buying bitcoins from 
 
 
 # COMMENTS
-Did you find this script useful? Do you have suggestions for improvement? Send me an email or checkout my [website](https://me.omarabid4.com) for more information.
+Did you find this script useful? Do you have suggestions for improvement? Send me an email or checkout my [website](http://omar-abid.com) for more information.
