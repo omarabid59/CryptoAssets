@@ -4,8 +4,9 @@ Are you constantly calculating the total monetary value of all your crypto-asset
 This script only works for QuadrigaCX exchange at the moment. If you would like support for other exchanges, please let me know.
 # INSTALLATION
 This requires the [Bitfinex](https://github.com/scottjbarr/bitfinex) library. Install it by running the following command on MacOSX.
+```
 > pip install bitfinex
-
+```
 
 # USAGE
 
