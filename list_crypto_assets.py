@@ -36,7 +36,7 @@ BTG_CAD_VALUE = float(BTG_Amount)*float(btg_data)
 BTC_CAD_VALUE = float(BTC_Amount)*float(btc_data)
 ETH_CAD_VALUE = float(ETH_Amount)*float(eth_data)
 BCH_CAD_VALUE = float(BCH_Amount)*float(bch_data)
-TOTAL_CAD_VALUE = BTG_CAD_VALUE + BTC_CAD_VALUE + ETH_CAD_VALUE + BCH_CAD_VALUE
+TOTAL_CAD_VALUE = BTG_CAD_VALUE + BTC_CAD_VALUE + ETH_CAD_VALUE + BCH_CAD_VALUE + XRP_CAD_VALUE
 print 'BTG: ' + str(BTG_CAD_VALUE) + '($' + btg_data + '/BTG)'
 print 'BTC: ' + str(BTC_CAD_VALUE) + '($' + btc_data + '/BTC)'
 print 'ETH: ' + str(ETH_CAD_VALUE) + '($' + eth_data + '/ETH)'
