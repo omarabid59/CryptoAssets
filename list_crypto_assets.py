@@ -1,5 +1,14 @@
 import APICalls as api_calls
 import json
+from bitfinex.client import Client
+client = Client()
+
+
+# Gather the XRP data from bitfinex
+symbol = 'xrpusd'
+data = client.ticker(symbol)
+xrp_price = data['last_price']
+XRP_CAD_VALUE = float(xrp_price)*167.42*1.24
 
 # Toggle b/w displaying the 'high' or 'last' market values.
 TYPE = 'last'
@@ -11,7 +20,7 @@ BTC_Amount = balance['btc_available']
 BTG_Amount = balance['btg_available']
 ETH_Amount = balance['eth_available']
 BCH_Amount = balance['bch_available']
-
+BTC_Amount = float(BTC_Amount) + 0.4099
 
 btc_data = api_calls.getBTCMarketData()
 btg_data = api_calls.getBTGMarketData()
@@ -32,5 +41,6 @@ print 'BTG: ' + str(BTG_CAD_VALUE) + '($' + btg_data + '/BTG)'
 print 'BTC: ' + str(BTC_CAD_VALUE) + '($' + btc_data + '/BTC)'
 print 'ETH: ' + str(ETH_CAD_VALUE) + '($' + eth_data + '/ETH)'
 print 'BCH: ' + str(BCH_CAD_VALUE) + '($' + bch_data + '/BCH)'
+print 'XRP: ' + str(XRP_CAD_VALUE) + '($' + str(xrp_price) + '/XRP)'
 print 'Total: ' + str(TOTAL_CAD_VALUE)
 
